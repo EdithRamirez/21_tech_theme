@@ -1,18 +1,20 @@
 /*estilo seccion call action*/
 .fondo-call{
-	background: url("../img/background/city.jpg") rgba(255,255,255,.5);
+	background: url("../img/background/city.jpg");
 	background-size: cover;
 	height: 350px;
 	background-repeat: no-repeat;	
 }
 /*estilos boton transparente*/
-button.btn-trans{
-	padding: 2%;
-	
-	border: none !important;
+button{
 	font-weight: bold;
 	cursor: pointer;
-	background: rgba(255,255,255,.5);
+	border: none;
+}
+button.btn-trans{
+	padding: 2%;
+	text-shadow: 1px 1px 3px #666666;
+	opacity: 0.5;
 }
 /*parrafos de call action*/
 .text-grande{
@@ -23,7 +25,7 @@ button.btn-trans{
 /*texto paquetes*/
 .text-gris{
 	color: #515050;
-	padding: 2%; 
+	
 }
 
 /*col-4 paquetes*/
@@ -42,8 +44,35 @@ li{
 }
 .div-blanco{
 	background-color: #fff;
-	border: 1px solid #ACACAC;
-	
+	border: 1px solid #ACACAC;	
+}
+/*caja premium*/
+.azul-caja{
+	background-color: #0CC0BF;
+}
+/*boton purchase*/
+button.btn-gris{
+	padding: 4% 8%;
 }
 
-	margin: 5% 6% 0 6%; 
+/*seccion customer*/
+/*foto*/
+.redondo{
+	width: 10%;
+	height: auto;
+	border-radius: 100%;
+}
+
+/*seccion Contacto*/
+input, textarea{
+	color: #B9B9B9;
+	margin: 2% 0;
+	display: block;
+}
+.fondo-contacto{
+	background: url("../img/background/contactus.jpg");
+	background-size: 100% auto;
+	height: 600px;
+	background-repeat: no-repeat;	
+	filter: brightness(0.5) contrast(1.4) grayscale(0.4);
+}
