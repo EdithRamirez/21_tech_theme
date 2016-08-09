@@ -6,6 +6,9 @@
  }
 
 /* Grid system */
+.container-fluid {	 /* Se añadio container fluid */
+	width: 100%;
+}
 
 .container {
   padding-right: 15px;
